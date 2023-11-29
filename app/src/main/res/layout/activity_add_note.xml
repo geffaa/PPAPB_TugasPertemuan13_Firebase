@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.ppapb_tugaspertemuan13_firebase.AddNoteActivity"
+    android:background="@color/soft_cream">
+
+    <ImageView
+        android:id="@+id/editimage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/baseline_edit_24"></ImageView>
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/poppins"
+        android:text="Make a Note"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/green2"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_cancel_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="3dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="3dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the title"
+        android:paddingStart="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/addNoteHeading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_description"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins">
+    </EditText>
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter the description"
+        android:gravity="top"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_description">
+    </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569565126056",
+    "project_id": "ppapbtugaspertemuan13firebase",
+    "storage_bucket": "ppapbtugaspertemuan13firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569565126056:android:392ee50a5a4150e47d119d",
+        "android_client_info": {
+          "package_name": "com.example.ppapb_tugaspertemuan13_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCch9U8iylow4Gfj-OMBE6Ho2Eemf-erYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
